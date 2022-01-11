@@ -1,0 +1,38 @@
+A quoi sert une base de données ?
+
+Elle est utile dans le cadre d'un projet informatique pour conserver des informations en mémoire.
+
+SGBD (Système de Gestion de Base de Données), il permet d'accueillir, d'exploiter et de faire fonctionner les bases de données (moteur)
+
+MCD : Modèle Conceptuel de Données
+BDD : Base De Données
+SQL : Structured Query Language
+Structured -> Structure
+Query -> Requête
+Language -> Langage
+
+Une requête s'effectue en 3 étapes :
+1 - Formulation (de ma requête)
+2 - Exécution de ma requête
+3 - Résultat
+
+Il y a 4 types de requêtes :
+
+- affichage (select, show), requête de sélection
+- insertion (insert), requête d'insertion
+- modification (update, replace), requête de modification
+- supprimer (delete, drop, truncate), requête de supression
+
+Les types de colonnes / champs
+
+3 grandes catégories de champs ressortent : les types numériques, chaînes de caractères (texte) temporels (dates)
+
+VARCHAR : 250 caractères
+TEXT : chaînes de caractères limités
+INT : numérique
+DATE : date
+
+Création d'une BDD entreprise
+table employés
+nom > prénom > poste
+12 lignes renseignées
